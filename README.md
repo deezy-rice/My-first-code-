@@ -1,4 +1,7 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/deezy-rice/My-first-code-/badge)](https://www.codefactor.io/repository/github/deezy-rice/My-first-code-)
 
+# My First Code - Kenya 🇰🇪
+My first Python loan calculator - A+ rated!
 print("=== Tala Mock Kenya ===")
 name = input("Enter your name: ")
 loan = int(input(f"Hey {name}, how much loan you want (KES): "))
