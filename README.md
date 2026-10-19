@@ -1,15 +1,5 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/deezy-rice/My-first-code-/badge)](https://www.codefactor.io/repository/github/deezy-rice/My-first-code-)
-
-# My First Code - Kenya 🇰🇪
-My first Python loan calculator - A+ rated!
-print("=== Tala Mock Kenya ===")
-name = input("Enter your name: ")
-loan = int(input(f"Hey {name}, how much loan you want (KES): "))
-
+name = input("Your name: ")
+loan = int(input(f"Hello {name}, loan amount (KES): "))
 interest = loan * 0.075
 total = loan + interest
-
-print(f"\nOkay {name}, you asked for KES {loan}")
-print(f"Interest (7.5%): KES {interest}")
-print(f"Total to pay: KES {total}")
-print(f"Pay in 30 days. Sawa?")
+print(f"Sawa {name}, total to pay back is KES {total}")
